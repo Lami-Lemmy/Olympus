@@ -592,7 +592,7 @@ function finder.fixRoot(root, appname)
     end
 
     if root:match("[Cc]eleste") then
-        print("[finder]", "found install root without Celeste.exe", root)
+        print("[finder]", "found install root without Celeste executable", root)
     end
     return nil
 end

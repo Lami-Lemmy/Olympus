@@ -317,7 +317,7 @@ No installations were found automatically. Manually select Celeste.exe to add it
             end
         end
 
-        listManual:addChild(uie.button("Manually select Celeste.exe", scene.browse):with(utils.important(24, function() return not foundAny end)))
+        listManual:addChild(uie.button("Manually select Celeste executable", scene.browse):with(utils.important(24, function() return not foundAny end)))
     end)
 end
 
